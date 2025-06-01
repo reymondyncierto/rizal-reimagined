@@ -300,18 +300,6 @@ export default function RizalsTeachings() {
             </div>
           ))}
         </div>
-
-        {/* Footer */}
-        <div className="mt-16 text-center text-gray-500 text-sm">
-          <div className="mb-4">
-            <h3 className="text-lg font-medium text-gray-700 mb-2">About This Project</h3>
-            <p>This interactive exploration was created to promote critical thinking about Philippine history and society.</p>
-            <p className="mt-1">All Rizal quotes are from public domain works. Modern examples are cited from credible news sources.</p>
-          </div>
-          <div className="border-t border-gray-200 pt-6">
-            <p>© {new Date().getFullYear()} Rizal Studies Interactive. Not affiliated with any government institution.</p>
-          </div>
-        </div>
       </div>
     </div>
   );
