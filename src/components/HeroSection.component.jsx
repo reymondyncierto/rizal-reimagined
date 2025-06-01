@@ -5,24 +5,19 @@ export default function HeroSection() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-800 mb-6 leading-tight">
-              Exploring the Enduring Legacies of José Rizal
+              How do <span className="text-white font-bold bg-blue-700 px-3 py-1 rounded shadow-md tracking-wide">YOU</span> remember and see Rizal nowadays in the 21st century?
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               An educational resource documenting the multifaceted contributions of the Philippines' national hero and their relevance to modern Filipino society.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
-              <a
-                href="#tangible-legacies"
-                className="bg-blue-700 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-800 transition text-center"
-              >
-                Tangible Legacies
-              </a>
+            <div className="flex justify-center">
               <a
                 href="#intangible-legacies"
-                className="border-2 border-blue-700 text-blue-700 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition text-center"
+                className="bg-blue-700 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-800 transition text-center flex items-center gap-2"
               >
-                Intangible Legacies
+                <span role="img" aria-label="arrow">👉</span>
+                <span>Explore Rizal’s Legacy</span>
               </a>
             </div>
           </div>

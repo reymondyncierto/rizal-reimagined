@@ -24,14 +24,6 @@ export default function Header() {
                   Legacies
                 </a>
               </li>
-              <li>
-                <a
-                  href="#resources"
-                  className="text-gray-700 hover:text-blue-700 transition font-medium"
-                >
-                  Resources
-                </a>
-              </li>
             </ul>
           </nav>
         </div>
