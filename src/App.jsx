@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header.component'
 import HeroSection from './components/HeroSection.component'
+import Footer from './components/Footer.component'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main className="flex-grow">
         <HeroSection />
       </main>
+      <Footer />
     </div>
   )
 }
