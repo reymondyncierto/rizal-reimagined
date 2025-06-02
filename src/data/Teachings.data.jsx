@@ -41,22 +41,31 @@ export const teachings = [
     id: 2,
     title: "Nationalism & Civic Responsibility",
     rizalsQuote: "Why independence, if the slaves of today will be the tyrants of tomorrow?",
-    rizalsSource: "Letter to Marcelo H. del Pilar (1892)",
+    rizalsSource: "El Filibusterismo (1891)",
     rizalsIdea: "Love for country should translate to holding leaders accountable and participating in civic life.",
     modernExample: {
-      title: "PDAF & PhilHealth Scandals",
-      description: "Public outrage over corruption cases like Pharmally and DPWH fund misuse reflects Rizal's warnings about greed in government.",
+      title: "Filipinos Demand Accountability Amid Political Turmoil",
+      description: "Recent events, including the arrest of former President Rodrigo Duterte and impeachment complaints against Vice President Sara Duterte, have galvanized citizens to demand transparency and justice, reflecting a resurgence of civic engagement.",
+      connection: "Rizal's warning about the cycle of oppression resonates today as Filipinos confront abuses of power, emphasizing that true independence requires active participation and vigilance.",
       sources: [
-        { name: "Rappler Investigation, 2023", url: "#" },
-        { name: "COA Reports, 2022-2023", url: "#" }
-      ]
+        { name: "Saludes, Mark. “Majority Support Holding Duterte Accountable; Rights Lawyer Sees Growing Courage to Speak out: Catholic News Philippines: LiCAS.News Philippines: Licas News.” Catholic News Philippines | LiCAS.news Philippines | Licas News, March 20, 2025. ", url: "https://philippines.licas.news/2025/03/20/majority-support-holding-duterte-accountable-rights-lawyer-sees-growing-courage-to-speak-out/." },
+        { name: "Gomez, Jim. “Activists File Second Impeachment Complaint against Embattled Philippine Vice President Duterte.” AP News, December 4, 2024.", url: "https://apnews.com/article/philippines-vice-president-duterte-impeachment-complaint-1edd5c533ae2f82d0cdad12bd5fd0c92." },
+        {name: "“A Quote from El Filibusterismo.” Goodreads. Accessed June 2, 2025.", url: "https://www.goodreads.com/quotes/1169139-why-independence-if-the-slaves-of-today-will-be-the."}
+      ],
+      imageUrl: '/duterte.jpg'
     },
-    criticalQuestion: "Are modern Filipinos practicing Rizal's brand of constructive nationalism?",
-    analysisPoints: [
-      "The rise of historical revisionism challenges Rizal's emphasis on truth",
-      "Social media has created new avenues for civic engagement Rizal couldn't imagine",
-      "How do we balance nationalism with global citizenship in the 21st century?"
-    ]
+    "criticalQuestion": "Are modern Filipinos practicing Rizal's brand of constructive nationalism?",
+    "analysisPoints": [
+      {
+        "point": "Public demand for accountability reflects Rizal's vision",
+        "explanation": "The growing clamor for justice against former leaders indicates a collective move towards responsible citizenship, aligning with Rizal's ideals."
+      },
+      {
+        "point": "Civic engagement counters the cycle of tyranny",
+        "explanation": "Active participation in democratic processes serves as a safeguard against the emergence of new oppressors, fulfilling Rizal's call for vigilance."
+      }
+    ],
+    "reflection": "True nationalism is not blind allegiance but the courage to hold our leaders accountable. As Rizal envisioned, a nation's strength lies in its citizens' commitment to justice and active participation in shaping its future."
   },
 
 
