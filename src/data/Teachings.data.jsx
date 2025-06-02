@@ -3,22 +3,36 @@ export const teachings = [
     id: 1,
     title: "Advocacy for Education & Enlightenment",
     rizalsQuote: "The youth is the hope of the nation.",
-    rizalsSource: "El Filibusterismo (1891)",
-    rizalsIdea: "Education liberates people from oppression. Rizal founded schools in Dapitan and emphasized science, languages, and critical thought.",
+    rizalsSource: "To the Filipino Youth (1879)",
+    rizalsIdea: "Education liberates people from oppression. Rizal personally established schools in Dapitan, demonstrating that cultivating youth potential requires institutional support and investment.",
     modernExample: {
-      title: "2024 UP Budget Cuts & PISA Rankings",
-      description: "Protests erupted after government slashed funding for state universities, while the Philippines scored among the lowest in global education assessments.",
+      title: "Hundreds of PUP students rally against the university's budget cut",
+      description: "Thirty-nine SUCs and Kabataan Partylist urged Congress to restore a ₱14.5B budget cut for 2025, warning it will undermine affordable education and student services—echoing Rizal’s call for strong investment in learning.",
+      connection: "Where Rizal built schools with his own funds, current policies dismantle educational opportunities. Student protesters now echo Rizal's warning that neglecting education destroys a nation's future.",
       sources: [
-        { name: "Philippine Daily Inquirer, 2024", url: "#" },
-        { name: "OECD PISA Report, 2023", url: "#" }
-      ]
+        {
+          name: 'Flores, Dominique Nicole. “39 State Universities Call for Restored P14.48-B Budget for 2025.” Philstar.com, September 19, 2024.',
+          url: 'https://www.philstar.com/headlines/2024/09/18/2385986/39-state-universities-call-restored-p1448-b-budget-2025.'
+        },
+        {
+          name: '“Ang Bayan Ngayon " Hundreds of PUP Students Rally against the University’s Budget Cut.” PRWC | Philippine Revolution Web Central, September 13, 2024',
+          url: 'https://philippinerevolution.nu/angbayan/hundreds-of-pup-students-rally-against-the-universitys-budget-cut/'
+        }
+      ],
+      imageUrl: "/budget-cut.jpg",
     },
-    criticalQuestion: "Is the Philippines fulfilling Rizal's dream of education for liberation?",
+    criticalQuestion: "How can we reconcile celebrating Rizal's educational legacy while defunding its realization?",
     analysisPoints: [
-      "Despite free college (RA 10931), many rural schools lack teachers and materials",
-      "Rizal valued holistic education, but today's system prioritizes memorization over critical thinking",
-      "How can we bridge the gap between Rizal's vision and current realities?"
-    ]
+      {
+        point: "The cuts reverse Rizal's hands-on commitment",
+        explanation: "While Rizal used his personal earnings to build schools in exile, current leaders withdraw support from existing institutions"
+      },
+      {
+        point: "Protest as patriotic duty",
+        explanation: "Student demonstrators embody Rizal's ideal of youth actively defending national interests through democratic means"
+      },
+    ],
+    reflection: "Genuine patriotism means funding the classrooms where tomorrow's Rizals are shaped. No memorial can substitute for investing in living minds."
   },
   {
     id: 2,
@@ -114,6 +128,7 @@ export const teachings = [
       title: "Mother Tongue Education Debate & Colonial Mentality",
       description: "DepEd's language policy controversies and ongoing preference for Western culture over local traditions.",
       sources: [
+
         { name: "DepEd Memos, 2023", url: "#" },
         { name: "Philippine Studies Journal", url: "#" }
       ]

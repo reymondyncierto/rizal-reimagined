@@ -24,7 +24,6 @@ export default function TeachingDetail() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-
         <button
           onClick={() => navigate('/')}
           className="mb-6 flex items-center text-indigo-600 hover:text-indigo-800"
@@ -34,7 +33,6 @@ export default function TeachingDetail() {
           </svg>
           Back to all themes
         </button>
-
 
         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="p-6 sm:p-8">
@@ -53,7 +51,6 @@ export default function TeachingDetail() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-
               <div className="bg-indigo-50 p-6 rounded-lg h-full">
                 <h3 className="font-semibold text-indigo-800 text-lg mb-3 flex items-center">
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -64,7 +61,6 @@ export default function TeachingDetail() {
                 <p className="text-gray-700">{teaching.rizalsIdea}</p>
               </div>
 
-
               <div className="bg-green-50 p-6 rounded-lg h-full">
                 <h3 className="font-semibold text-green-800 text-lg mb-3 flex items-center">
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -72,26 +68,19 @@ export default function TeachingDetail() {
                   </svg>
                   Modern Evidence
                 </h3>
-                <h4 className="font-medium text-gray-800 mb-2">{teaching.modernExample.title}</h4>
-                <p className="text-gray-700 mb-3">{teaching.modernExample.description}</p>
-                <div className="text-sm">
-                  <h5 className="font-medium text-gray-600 mb-1">Sources:</h5>
-                  <ul className="space-y-1">
-                    {teaching.modernExample.sources.map((source, index) => (
-                      <li key={index}>
-                        <a href={source.url} className="text-indigo-600 hover:underline inline-flex items-center">
-                          <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                          </svg>
-                          {source.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
+                <div className="mb-4 rounded-lg overflow-hidden">
+                  <img
+                    src={teaching.modernExample.imageUrl}
+                    alt={teaching.modernExample.title}
+                    className="w-full h-auto object-cover rounded-lg"
+                  />
+                  <p className="text-xs text-gray-500 mt-1 italic">
+                    {teaching.modernExample.title}
+                  </p>
                 </div>
+                <p className="text-gray-700 mb-3">{teaching.modernExample.description}</p>
               </div>
             </div>
-
 
             <div className="mt-6 bg-yellow-50 p-6 rounded-lg">
               <h3 className="font-semibold text-yellow-800 text-lg mb-3 flex items-center">
@@ -100,8 +89,12 @@ export default function TeachingDetail() {
                 </svg>
                 Critical Analysis
               </h3>
+              <div className="mb-3 p-3 bg-yellow-100 rounded-lg">
+                  <h5 className="font-medium text-yellow-800 mb-1">Connection to Rizal's Idea:</h5>
+                  <p className="text-gray-700 text-sm">{teaching.modernExample.connection}</p>
+                </div>
               <p className="font-medium text-gray-800 mb-4">"{teaching.criticalQuestion}"</p>
-              <ul className="space-y-3">
+              <ul className="space-y-4">
                 {teaching.analysisPoints.map((point, index) => (
                   <li key={index} className="flex items-start">
                     <span className="flex-shrink-0 mt-1 mr-3">
@@ -109,32 +102,41 @@ export default function TeachingDetail() {
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clipRule="evenodd" />
                       </svg>
                     </span>
-                    <span className="text-gray-700">{point}</span>
+                    <div>
+                      <p className="font-medium text-gray-800">{point.point}</p>
+                      <p className="text-gray-700 mt-1 text-sm">{point.explanation}</p>
+                    </div>
                   </li>
                 ))}
               </ul>
+              {teaching.reflection && (
+                <div className="mt-4 p-3 bg-yellow-100 rounded-lg">
+                  <p className="text-yellow-800 italic">{teaching.reflection}</p>
+                </div>
+              )}
             </div>
 
-
-            <div className="mt-6 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-              <h4 className="font-medium text-gray-800 mb-2 flex items-center">
-                <svg className="w-5 h-5 mr-2 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            <div className="mt-6 bg-blue-50 p-6 rounded-lg">
+              <h3 className="font-semibold text-blue-800 text-lg mb-3 flex items-center">
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                Join the Discussion
-              </h4>
-              <p className="text-gray-600 mb-3">What other modern examples can you think of that relate to this teaching?</p>
-              <textarea
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                rows="3"
-                placeholder="Share your thoughts..."
-              ></textarea>
-              <div className="mt-2 flex justify-between items-center">
-                <span className="text-xs text-gray-500">All discussions are moderated</span>
-                <button className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                  Submit Response
-                </button>
-              </div>
+                References
+              </h3>
+              <ul className="space-y-2">
+                {teaching.modernExample.sources.map((source, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="flex-shrink-0 mt-1 mr-2 text-blue-600">
+                      <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                      </svg>
+                    </span>
+                    <span className="text-left text-xs text-gray-600">
+                      {source.name} <a href={source.url} className="text-blue-600 hover:underline">{source.url}</a>
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
