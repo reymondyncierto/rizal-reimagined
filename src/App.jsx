@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom';
 
 import './App.css'
 import Header from './components/Header.component'
@@ -8,7 +8,6 @@ import TeachingDetail from './components/TeachingDetail'
 import ThemeSelector from './components/ThemeSelector.component'
 
 function App() {
-  const [selectedTheme, setSelectedTheme] = useState(null)
 
   return (
     <div id="home" className="min-h-screen flex flex-col">
@@ -17,14 +16,10 @@ function App() {
         <HeroSection />
         <section id="theme-selector" className="py-12 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            {selectedTheme ? (
-              <TeachingDetail
-                themeId={selectedTheme}
-                onBack={() => setSelectedTheme(null)}
-              />
-            ) : (
-              <ThemeSelector onThemeSelect={setSelectedTheme} />
-            )}
+            <Routes>
+              <Route path="/" element={<ThemeSelector />} />
+              <Route path="/teaching/:themeId" element={<TeachingDetail />} />
+            </Routes>
           </div>
         </section>
       </main>
