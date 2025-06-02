@@ -3,3 +3,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+#home {
+  scroll-margin-top: 80px;
+}
+
+#theme-selector {
+  scroll-margin-top: 40px;
+}

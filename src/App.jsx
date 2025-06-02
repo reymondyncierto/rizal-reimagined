@@ -11,7 +11,7 @@ function App() {
   const [selectedTheme, setSelectedTheme] = useState(null)
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div id="home" className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow">
         <HeroSection />

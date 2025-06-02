@@ -10,15 +10,15 @@ export default function Header() {
             <ul className="flex space-x-8">
               <li>
                 <a
-                  href="#about"
+                  href="#home"
                   className="text-gray-700 hover:text-blue-700 transition font-medium"
                 >
-                  About
+                  Home
                 </a>
               </li>
               <li>
                 <a
-                  href="#legacies"
+                  href="#theme-selector"
                   className="text-gray-700 hover:text-blue-700 transition font-medium"
                 >
                   Legacies
