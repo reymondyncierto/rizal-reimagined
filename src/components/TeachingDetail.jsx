@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function RizalsTeachings() {
+export default function TeachingDetail() {
   const teachings = [
     {
       id: 1,
