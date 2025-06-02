@@ -74,22 +74,30 @@ export const teachings = [
     id: 3,
     title: "Non-Violent Reform & Peaceful Resistance",
     rizalsQuote: "I do not write for this generation. I am writing for other ages.",
-    rizalsSource: "Letter to Ferdinand Blumentritt (1887)",
+    rizalsSource: "",
     rizalsIdea: "Change through intellectual discourse and peaceful means rather than armed struggle.",
     modernExample: {
-      title: "#JunkTerrorLaw Movement & Community Pantries",
-      description: "Activists used legal petitions and social media campaigns against the Anti-Terror Law, while community pantries emerged as peaceful protest against government inefficiency.",
+      title: "Philippine Government and NDFP Agree to End Armed Struggle",
+      description: "In November 2023, the Philippine government and the National Democratic Front of the Philippines (NDFP) signed a joint statement in Oslo, Norway, agreeing to a 'principled and peaceful resolution of the armed conflict.' This marks a significant step towards ending decades of insurgency through dialogue and reform.",
+      connection: "Rizal's advocacy for peaceful reform is echoed in this modern effort to resolve deep-rooted conflicts through negotiation rather than violence.",
       sources: [
-        { name: "CNN Philippines, 2021", url: "#" },
-        { name: "ABS-CBN News, 2021-2023", url: "#" }
-      ]
+        { name: "Ph gov’t, NDF agree to principled, peaceful armed conflict resolution | Philippine News Agency. Accessed June 2, 2025.", url: "https://www.pna.gov.ph/articles/1214488." },
+        { name: "Al Jazeera. “Philippine Government, Communist Rebels to Revive Peace Talks.” Al Jazeera, November 28, 2023.", url: "https://www.aljazeera.com/news/2023/11/28/philippine-government-communist-rebels-to-revive-peace-talks." }
+      ],
+      imageUrl: "/communist.webp"
     },
-    criticalQuestion: "Is peaceful resistance still effective in the digital age?",
-    analysisPoints: [
-      "Rizal's La Solidaridad vs. modern hashtag activism",
-      "The government's response to peaceful protests today vs. Spanish colonial reaction",
-      "When does peaceful protest become insufficient?"
-    ]
+      "criticalQuestion": "Can enduring peace be achieved through dialogue in a society long marred by armed conflict?",
+    "analysisPoints": [
+      {
+        "point": "Transition from armed struggle to political engagement",
+        "explanation": "The agreement signifies a shift from decades of insurgency to potential political participation, aligning with Rizal's vision of reform through peaceful means."
+      },
+      {
+        "point": "Addressing root causes through dialogue",
+        "explanation": "By focusing on socio-economic and political grievances, the peace talks aim to tackle the underlying issues that fuel conflict, reflecting Rizal's emphasis on intellectual discourse."
+      }
+    ],
+    "reflection": "Rizal believed in the power of ideas to transform society. The move towards peaceful resolution of conflict in the Philippines embodies this belief, demonstrating that dialogue and understanding can pave the way for lasting change."
   },
 
 
