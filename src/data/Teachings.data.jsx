@@ -145,19 +145,31 @@ export const teachings = [
     rizalsSource: "Noli Me Tangere (1887)",
     rizalsIdea: "Condemnation of feudal systems and exploitation of the poor.",
     modernExample: {
-      title: "PUV Modernization Protests & Land Reform Delays",
-      description: "Jeepney drivers resist phaseouts without subsidies, while farmers demand faster CARP implementation - mirroring Rizal's critique of hacienda abuses.",
+      title: "Philippines Faces Deepening Inequality Despite Economic Growth",
+      description: "While the Philippines has experienced economic growth, income inequality remains high. The top 1% of earners capture 17% of national income, while only 14% is shared by the bottom 50%.",
+      connection: "Rizal's critique of feudal systems resonates today, as modern economic structures continue to perpetuate inequality, undermining the nation's progress.",
       sources: [
-        { name: "Manila Bulletin, 2023", url: "#" },
-        { name: "Kilusang Magbubukid Reports", url: "#" }
-      ]
+        { name: "Affairs, GMA News and Public. “World Bank: Philippines Made Significant Progress in Cutting Poverty, but Inequality Remains High.” GMA News Online. Accessed June 2, 2025.", url: "#https://www.gmanetwork.com/news/money/economy/852467/world-bank-philippines-made-significant-progress-in-cutting-poverty-but-inequality-remains-high/story/." },
+        { name: "World Bank flags pinoys’ issues in socioeconomic mobility | cai U. ordinario. Accessed June 2, 2025. ", url: "https://businessmirror.com.ph/2024/10/17/world-bank-flags-pinoys-issues-in-socioeconomic-mobility/." }
+      ],
+      imageUrl: "/injustice.jpg"
     },
-    criticalQuestion: "Has Philippine society moved beyond feudal structures?",
+    criticalQuestion: "How can modern Filipinos address systemic inequality to fulfill Rizal's vision of a just society?",
     analysisPoints: [
-      "Modern economic inequality vs. Spanish-era class system",
-      "Oligarchic control in contemporary politics",
-      "Rizal's solution vs. modern welfare programs"
-    ]
+      {
+        "point": "Economic Growth vs. Income Distribution",
+        "explanation": "Despite economic growth, the benefits are disproportionately distributed, with a significant portion of national income concentrated among the wealthiest individuals."
+      },
+      {
+        "point": "Barriers to Socioeconomic Mobility",
+        "explanation": "Limited access to quality education and healthcare hinders upward mobility for lower-income groups, perpetuating cycles of poverty."
+      },
+      {
+        "point": "Need for Structural Reforms",
+        "explanation": "Implementing policies that promote equitable access to resources and opportunities is essential to reduce inequality and promote social justice."
+      }
+    ],
+    reflection: "True justice is not merely the absence of tyranny but the presence of fairness and opportunity for all. To honor Rizal's legacy, Filipinos must strive for a society where equality is not just an ideal but a lived reality."
   },
 
 
