@@ -34,6 +34,9 @@ export const teachings = [
     ],
     reflection: "Genuine patriotism means funding the classrooms where tomorrow's Rizals are shaped. No memorial can substitute for investing in living minds."
   },
+
+
+
   {
     id: 2,
     title: "Nationalism & Civic Responsibility",
@@ -55,6 +58,9 @@ export const teachings = [
       "How do we balance nationalism with global citizenship in the 21st century?"
     ]
   },
+
+
+
   {
     id: 3,
     title: "Non-Violent Reform & Peaceful Resistance",
@@ -76,6 +82,9 @@ export const teachings = [
       "When does peaceful protest become insufficient?"
     ]
   },
+
+
+
   {
     id: 4,
     title: "Gender Equality & Women's Empowerment",
@@ -97,6 +106,9 @@ export const teachings = [
       "How Rizal's feminist views were ahead of his time"
     ]
   },
+
+
+
   {
     id: 5,
     title: "Social Justice & Equality",
@@ -118,6 +130,9 @@ export const teachings = [
       "Rizal's solution vs. modern welfare programs"
     ]
   },
+
+
+
   {
     id: 6,
     title: "Importance of Language & Cultural Identity",
@@ -140,46 +155,65 @@ export const teachings = [
       "Balancing cultural pride with global integration"
     ]
   },
+
+
+
   {
     id: 7,
     title: "Moral Integrity & Sacrifice for the Greater Good",
     rizalsQuote: "I die without seeing the dawn... You who will see it, welcome it for me.",
-    rizalsSource: "Last poem (1896)",
+    rizalsSource: "Noli Me Tángere (1887)",
     rizalsIdea: "Stand for truth and justice regardless of personal cost.",
     modernExample: {
-      title: "Whistleblowers & Journalists Under Threat",
-      description: "Cases like Jun Lozada (NBN-ZTE scam) and Maria Ressa (Rappler) show continuing risks for truth-tellers.",
+      title: "Four UP campuses join call to surface missing students, alumni",
+      description: "In 2023, UP alumni activists Gene Roz Jamil “Bazoo” De Jesus, Dexter Capuyan, and Patricia Nicole Cierva were reported missing under circumstances suggesting state involvement. Their disappearances have prompted widespread calls from the UP community and human rights groups for their immediate surfacing and the protection of activists' rights.",
       sources: [
-        { name: "Committee to Protect Journalists", url: "#" },
-        { name: "Philippine Center for Investigative Journalism", url: "#" }
-      ]
+        { name: '"A Quote from Noli Me Tángere.” Goodreads. Accessed June 2, 2025.', url: "https://www.goodreads.com/quotes/727735-i-die-without-seeing-dawn-s-light-shining-on-my-country." },
+        { name: 'Chi, Cristina. “Four up Campuses Join Call to Surface Missing Students, Alumni.” Philstar.com, May 29, 2023.', url: "https://www.philstar.com/headlines/2023/05/29/2269940/four-campuses-join-call-surface-missing-students-alumni." },
+        { name: 'Peña, Kurt Dela. “Enforced Disappearances of Activists Show Assault on Freedoms Continues.” INQUIRER.net, May 31, 2023.', url: "https://newsinfo.inquirer.net/1777073/enforced-disappearances-of-activists-show-assault-on-freedoms-continues." }
+      ],
+      connection: "Just as Rizal established a free school in Dapitan to educate and empower the youth, these modern activists championed education and community development. Their disappearances highlight ongoing challenges to educational advocacy and civic engagement in the Philippines.",
+      imageUrl: "/activists.jpeg"
     },
-    criticalQuestion: "Are modern Filipinos willing to sacrifice like Rizal did?",
+    criticalQuestion: "Are modern Filipinos prepared to make sacrifices akin to Rizal's in the pursuit of truth and justice?",
     analysisPoints: [
-      "Comparing Rizal's exile to modern red-tagging",
-      "The psychology of martyrdom in Filipino culture",
-      "How to cultivate courage without romanticizing suffering"
-    ]
+      {
+        point: "Rizal's martyrdom inspires contemporary activism",
+        explanation: "Rizal's execution for advocating reform serves as a powerful symbol for today's activists, who continue to risk their lives for societal change."
+      },
+      {
+        point: "State responses to dissent remain consistent",
+        explanation: "The enforced disappearances of activists reflect a historical pattern of silencing dissent, reminiscent of colonial-era suppression."
+      },
+      {
+        "point": "Public vigilance is crucial to uphold justice",
+        "explanation": "Just as Rizal's writings awakened national consciousness, modern society must remain alert and responsive to injustices to prevent history from repeating itself."
+      }
+    ],
+    "reflection": "True patriotism is measured not by monuments built, but by the courage to stand for justice when silence is safer. The sacrifices of those who vanish in the shadows remind us that the fight for freedom is far from over."
   },
-  {
-    id: 8,
-    title: "Global Perspective & International Solidarity",
-    rizalsQuote: "Travel is the best way to learn about other cultures and improve one's own.",
-    rizalsSource: "Diaries (1882-1892)",
-    rizalsIdea: "Learn from other nations while maintaining Filipino sovereignty.",
-    modernExample: {
-      title: "OFW Rights Advocacy & UN Engagement",
-      description: "Migrant workers groups demand better protections, while the Philippines balances international relations with national interests.",
-      sources: [
-        { name: "DMW Statistics, 2023", url: "#" },
-        { name: "DFA Reports", url: "#" }
-      ]
-    },
-    criticalQuestion: "How should the Philippines engage with the world today?",
-    analysisPoints: [
-      "Rizal's European experience vs. modern globalization",
-      "The diaspora as modern ilustrados",
-      "Sovereignty challenges in economic partnerships"
-    ]
-  }
+
+
+
+  // {
+  //   id: 8,
+  //   title: "Global Perspective & International Solidarity",
+  //   rizalsQuote: "Travel is the best way to learn about other cultures and improve one's own.",
+  //   rizalsSource: "Diaries (1882-1892)",
+  //   rizalsIdea: "Learn from other nations while maintaining Filipino sovereignty.",
+  //   modernExample: {
+  //     title: "OFW Rights Advocacy & UN Engagement",
+  //     description: "Migrant workers groups demand better protections, while the Philippines balances international relations with national interests.",
+  //     sources: [
+  //       { name: "DMW Statistics, 2023", url: "#" },
+  //       { name: "DFA Reports", url: "#" }
+  //     ]
+  //   },
+  //   criticalQuestion: "How should the Philippines engage with the world today?",
+  //   analysisPoints: [
+  //     "Rizal's European experience vs. modern globalization",
+  //     "The diaspora as modern ilustrados",
+  //     "Sovereignty challenges in economic partnerships"
+  //   ]
+  // }
 ]
