@@ -13,7 +13,7 @@ export default function HeroSection() {
 
             <div className="flex justify-center">
               <a
-                href="#intangible-legacies"
+                href="#theme-selector"
                 className="bg-blue-700 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-800 transition text-center flex items-center gap-2"
               >
                 <span role="img" aria-label="arrow">👉</span>

@@ -15,7 +15,7 @@ function App() {
       <Header />
       <main className="flex-grow">
         <HeroSection />
-        <section className="py-12 bg-gray-50">
+        <section id="theme-selector" className="py-12 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {selectedTheme ? (
               <TeachingDetail
