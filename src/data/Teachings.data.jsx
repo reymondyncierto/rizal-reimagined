@@ -178,23 +178,36 @@ export const teachings = [
     id: 6,
     title: "Importance of Language & Cultural Identity",
     rizalsQuote: "Ang hindi marunong magmahal sa sariling wika, daig pa ang hayop at malansang isda.",
-    rizalsSource: "El Amor Patrio (1882)",
+    rizalsSource: " ",
     rizalsIdea: "Preserve Filipino identity while selectively adopting foreign ideas.",
     modernExample: {
-      title: "Mother Tongue Education Debate & Colonial Mentality",
-      description: "DepEd's language policy controversies and ongoing preference for Western culture over local traditions.",
+      title: "PBBM Asks Pinoys to Love the National Language, Cites Its Importance for Unity and Filipino Identity",
+      description: "President Ferdinand Marcos Jr. emphasized the significance of the Filipino language in fostering national unity and strengthening Filipino identity during the Buwan ng Wikang Pambansa celebrations.",
+    "connection": "Rizal's advocacy for the love of one's native language aligns with contemporary efforts to promote Filipino as a unifying force in the nation.",
+
       sources: [
 
-        { name: "DepEd Memos, 2023", url: "#" },
-        { name: "Philippine Studies Journal", url: "#" }
-      ]
+        { name: "PBBM asks Pinoys to love the national language, cites its ... Accessed June 2, 2025.", url: "https://pco.gov.ph/news_releases/pbbm-asks-pinoys-to-love-the-national-language-cites-its-importance-for-unity-and-filipino-identity.#" },
+        { name: "Morrow, Paul. “The Poem That Rizal Did Not Write.” Pilipino Express News Magazine. Accessed June 2, 2025.", url: "#https://www.pilipino-express.com/history-a-culture/in-other-words/3050-the-poem-that-rizal-did-not-write.html." }
+      ],
+      imageUrl: "/pbbm.jpg"
     },
-    criticalQuestion: "Is globalization erasing Filipino identity?",
-    analysisPoints: [
-      "Rizal's multilingualism vs. English-only preference today",
-      "K-pop influence vs. traditional arts preservation",
-      "Balancing cultural pride with global integration"
-    ]
+    "criticalQuestion": "How can modern Filipinos balance embracing global influences while preserving their linguistic and cultural heritage?",
+    "analysisPoints": [
+      {
+        "point": "Language as a Unifying Force",
+        "explanation": "The Filipino language serves as a bridge among the diverse linguistic communities in the Philippines, promoting national unity and a shared identity."
+      },
+      {
+        "point": "Cultural Expression Through Language",
+        "explanation": "Language encapsulates cultural nuances, traditions, and values, making its preservation essential for maintaining cultural heritage."
+      },
+      {
+        "point": "Challenges of Globalization",
+        "explanation": "The dominance of global languages, especially English, poses a threat to the vitality of Filipino and regional languages, necessitating conscious efforts for their preservation."
+      }
+    ],
+    "reflection": "Embracing one's native language is not merely about communication but about honoring one's heritage and identity. As Rizal emphasized, the love for one's language is a reflection of love for one's country."
   },
 
 
