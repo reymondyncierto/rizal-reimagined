@@ -109,19 +109,31 @@ export const teachings = [
     rizalsSource: "Letter to the Women of Malolos (1889)",
     rizalsIdea: "Women deserve equal rights and education to participate fully in society.",
     modernExample: {
-      title: "#HijaAko Movement & Women in Politics",
-      description: "Women called out victim-blaming in abuse cases, while more women hold political office but still face gender-based challenges.",
+      title: "Philippines Advances Gender Equality Initiatives",
+      description: "In 2024, the Philippine government allocated 24% of its national budget to gender-responsive programs, including the Pantawid Pamilyang Pilipino Program (4Ps), benefiting 4.4 million households and promoting women's empowerment through education and health services.",
+      "connection": "Rizal's advocacy for women's education is mirrored in these government initiatives, emphasizing the importance of empowering women for societal progress.",
       sources: [
-        { name: "Rappler, 2021-2024", url: "#" },
-        { name: "COMELEC Data, 2022 Elections", url: "#" }
-      ]
+        { name: "CEDTyClea. “Philippines Ranks 2nd Highest in Legal, Economic Gender Equality in SE Asia.” BusinessWorld Online, March 4, 2024.", url: "https://www.bworldonline.com/top-stories/2024/03/05/579431/philippines-ranks-2nd-highest-in-legal-economic-gender-equality-in-se-asia/." },
+        { name: "Person. “‘Philippines Made Significant Strides in Women’s Rights.’” Philstar.com, March 12, 2024.", url: "https://www.philstar.com/headlines/2024/03/13/2340178/philippines-made-significant-strides-womens-rights." }
+      ],
+      imageUrl: "/kababaihan.jpg"
     },
-    criticalQuestion: "Has the Philippines achieved Rizal's vision for women?",
-    analysisPoints: [
-      "Compare Rizal's time (no suffrage) to today (women leaders)",
-      "Persistent gender pay gap and glass ceilings",
-      "How Rizal's feminist views were ahead of his time"
-    ]
+    "criticalQuestion": "How can modern Filipinas continue to break barriers and contribute to national development?",
+    "analysisPoints": [
+      {
+        "point": "Government investment in women's empowerment",
+        "explanation": "The allocation of 24% of the national budget to gender-responsive programs demonstrates a commitment to empowering women through education and health services."
+      },
+      {
+        "point": "Legislative support for gender equality",
+        "explanation": "The passage of laws such as the Safe Spaces Act and the SOGIESC Equality Bill reflects the government's efforts to protect women's rights and promote equality."
+      },
+      {
+        "point": "Representation of women in leadership roles",
+        "explanation": "The appointment of women in key government positions signifies progress towards achieving gender parity in leadership and decision-making."
+      }
+    ],
+    "reflection": "Empowering women is not just a matter of justice, but a pathway to national progress. As Rizal envisioned, an educated and empowered woman is a cornerstone of a thriving society."
   },
 
 
